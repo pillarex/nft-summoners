@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 contract FunticoNFT is ERC721, ERC721Enumerable, Ownable {
-    uint256 private _nextTokenId = 0;
+    uint256 private _nextTokenId = 1;
     uint256 public MAX_SUPPLY = 889;
     constructor(
         address initialOwner
